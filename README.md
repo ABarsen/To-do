@@ -1,1 +1,1 @@
-# To-do
+This is a straightforward web-based tool that allows users to manage their daily tasks. Users can add tasks through an input field, view them in an organized list, and delete tasks as needed. The application is built using HTML for structure, CSS for styling, and JavaScript for functionality, providing a responsive and interactive user experience.
