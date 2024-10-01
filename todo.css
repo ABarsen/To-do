@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+/* Removed the empty ruleset */
+#todo-container{
+    background:fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow : 0 0 10px rgba(0,0,0,0.1);
+}
+h1{
+    text-align: center;
+    color:WHITE;
+    font-size: 5em;
+
+}
+new-task{
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+}
+add-task-button{
+    box-sizing: border-box;
+    width: 3px;
+    color: white;
+    cursor: pointer;
+    padding : 10px 20px;
+}
+add-task-button hover{
+    background: #333;
+}   
+#task-list{
+    list-style-type: none;
+    padding: 0;
+}
+.task{
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin: bottom 5px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+.task button{
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+.task button:hover{
+    background-color: red;
+}
