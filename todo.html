@@ -29,7 +29,7 @@
 
     #new-task {
         width: 300px;
-        padding: 10px;
+        padding: 20px;
         margin-bottom: 10px;
         border: 1px solid #ddd;
         border-radius: 3px;
@@ -98,6 +98,7 @@
         var taskText = taskInput.value.trim();
         if (taskText !=="")
             {
+            
                 var taskList =document.getElementById("task-list");
                 var listItems = document.createElement("li");
                 listItems.className="task";
